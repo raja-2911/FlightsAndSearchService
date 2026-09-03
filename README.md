@@ -32,3 +32,9 @@
  - A flight belong to an anirplane but one airplane can be used to multiple flight
  - A City has many airplane but one airplane belongs to a city
  - One airplane can have many flights, but a flight belongs to one airport
+
+ ## Tables
+
+### City -> id,name, created_at, updated_at
+### Airport -> id, name, sddress, city_id, created_at, updated_at
+    Relationship -> City has many airport and Airport belong to a city (one to many)
